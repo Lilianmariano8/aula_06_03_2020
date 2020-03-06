@@ -17,7 +17,7 @@ Exemplo:
 Sintaxe: E#foo
 Exemplo:
 #dois { background: honeydew; }
-# Seletores de Atributo
+### Seletores de Atributo
  Você pode especificar outros atributos usando colchetes. Dentro dos colchetes você insere o nome do atributo, opcionalmente seguido por um operador correspondente e um valor. Além disso, a seleção pode ser feita case-insensitive adicionando um "i" depois do valor, mas nem todos os browsers suportam esta funcionalidade ainda. Exemplos:
 [disabled]
 Seleciona todos os elementos com o atributo "disabled".
@@ -25,7 +25,7 @@ Seleciona todos os elementos com o atributo "disabled".
 Seleciona todos os elementos do tipo "button".
 [class~=key]
 Seleciona elementos com a classe "key" (mas não ex: "keyed", "monkey", "buckeye"). Funcionalmente equivalente a .key.
-# Seletores de pseudo-classes
+### Seletores de pseudo-classes
 É uma palavra-chave adicionada aos seletores que especifica um estado especial do elemento a ser selecionado. Por exemplo  :hover, aplicará um estilo quando o usuário passar o mouse sobre o elemento especificado pelo seletor.
 Syntax
 selector:pseudo-class {
@@ -106,7 +106,7 @@ Exemplo:
 li:nth-child(4) { color: red; }
 li:nth-child(2n+1) { color: blue; }
 li:nth-child(5n) { color: green; }
-## enésimo filho de trás para frente
+### enésimo filho de trás para frente
 ♦ Casa com o elemento que é o enésimo filho do seu elemento pai, contado de trás para frente na marcação
 Sintaxe: E:nth-last-child(n)
 Exemplo:
@@ -128,12 +128,12 @@ Exemplo:
 div :first-child {
     color: red;
 }
-## último filho
+### último filho
 ♦ Casa com o elemento que é o último filho do seu elemento pai
 Sintaxe: E:last-child
 Exemplo:
 div p:last-child { color: blue; }
-## primeiro do mesmo tipo
+### primeiro do mesmo tipo
 ♦ Casa com o elemento que é o primeiro irmão (filhos do mesmo elemento pai) do mesmo tipo
 Sintaxe: E:first-of-type
 Exemplo:
